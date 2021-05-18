@@ -5,6 +5,9 @@ import LandingPage from "./components/LandingPage";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+toast.configure(); 
 
 
 

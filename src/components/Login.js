@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Link} from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login =({setAuth})=>{
@@ -63,8 +63,6 @@ const Login =({setAuth})=>{
                 </div>
             </form>
             <p>Not registered click <span><Link to="/">here</Link> </span>to register</p>
-            <ToastContainer position="top-right" 
-                autoClose={5000}>hello</ToastContainer>
         </div>
     )
 }
